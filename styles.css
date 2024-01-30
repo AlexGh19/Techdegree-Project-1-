@@ -72,7 +72,7 @@ header.experience {
   
 }
 .experience-image {
- background-size: small;
+ background-size: cover;
   width: 20%;
 }
 header {
@@ -84,7 +84,7 @@ header .profile-image {
   height: 150px;
   border-radius: 50%;
   border: 3px solid white;
-  transition: all .5s;
+  transition: transform 0.5s ease-in-out;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
